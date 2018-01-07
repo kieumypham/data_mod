@@ -1,12 +1,5 @@
-Sample Module Repository
-========================
+kieumypham's Play Project - All to do with data transformation and data generations
+====================================================================================
 
-This simple project is an example repo for Python projects.
-
-`Learn more <http://www.kennethreitz.org/essays/repository-structure-and-python>`_.
-
----------------
-
-If you want to learn more about ``setup.py`` files, check out `this repository <https://github.com/kennethreitz/setup.py>`_.
-
-✨🍰✨
+1. For local development, use pyenv to setup a stand-alone environment https://github.com/pyenv/pyenv
+2. This project is developed using python 3.6.3
