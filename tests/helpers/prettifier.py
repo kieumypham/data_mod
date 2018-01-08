@@ -6,4 +6,4 @@ def print_list(the_list):
 
 def print_dict(the_dict):
     for k, v in the_dict.items():
-        print('{%s : %s}' %(k, v))
+        print('{"%s" : "%s"}' %(k, v))
