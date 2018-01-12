@@ -8,3 +8,13 @@ def prettify_dict(data):
         return '{%s\n}' %(serialized_content[:-1])
     else:
         raise Exception("Data is not a dictionary")
+
+
+def prettify_list(data):
+    if isinstance(data, list):
+        serialized_content = ''
+        for item in data:
+            serialized_content += '\n\t%s,' %(item)
+        return '[%s\n]' %(serialized_content[:-1])
+    else:
+        raise Exception("Data is not a list")
